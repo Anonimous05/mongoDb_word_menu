@@ -1,0 +1,88 @@
+.menu-nav {
+    display: flex;
+}
+.menu-ul {
+    margin: 0;
+    padding: 0;
+    width: 270px;
+}
+.menu-ul li {
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    background: #242b2e;
+    height: 30px;
+    border-top: 1px solid white;
+}
+.subCatalog1 {
+    width: 270px;
+    background: #242b2e;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+.subCatalog2 {
+    width: 270px;
+    background: #242b2e;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left:1px solid white;
+}
+.subCatalog1 li , .subCatalog2 li{
+    text-align: center;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    min-height: 30px;
+    border-bottom: 1px solid white;
+}
+.adsContainer {
+    margin-top: 40px;
+}
+.adsBlock {
+    width: 250px;
+    min-height: 150px;
+    background: #253b4e;
+    box-shadow: 0 0 10px;
+    margin-left: 40px;
+}
+.adsBlock p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.adsBlock button {
+    width: 98%;
+    margin-left: 1%;
+    cursor: pointer;
+    height: 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all 0.5s;
+    outline: none;
+}
+.adsBlock button:hover {
+    background: white;
+    border: 2px solid #242b2e;
+    color: #253b4e;
+}
+.adsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
